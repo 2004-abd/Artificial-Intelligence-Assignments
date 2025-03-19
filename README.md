@@ -1,4 +1,4 @@
-# Artificial-Intelligence-Assignments
+# Artificial-Intelligence
 
 ## Tic-Tac-Toe (Minimax AI)
 

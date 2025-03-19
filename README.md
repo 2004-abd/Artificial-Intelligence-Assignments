@@ -44,21 +44,23 @@ This repository contains a Tic-Tac-Toe game in Python featuring:
 2. **Clone or Download the Repository:**
    ```bash
    git clone https://github.com/YourUsername/Artificial-Intelligence-Assignments.git
+   ```
 
- Or download the ZIP file and extract it.
 
-3. **Navigate to the Project Directory:**
+   Or download the ZIP file and extract it.
+
+4. **Navigate to the Project Directory:**
 
    ```bash
    cd Artificial-Intelligence-Assignments
    
-4. **Install Dependencies:**
+5. **Install Dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Run the Game:**
+6. **Run the Game:**
   ```bash
      python runner.py
   ```

@@ -26,6 +26,7 @@
   - Determining terminal states (`terminal`)
   - Evaluating board utility (`utility`)
   - The Minimax algorithm and its helper functions (`minimax`, `max_value`, `min_value`)
+  - 
 
 - **runner.py**  
   Contains the pygame graphical interface that:
@@ -36,10 +37,7 @@
 - **requirements.txt**  
   Lists the required Python packages (e.g., `pygame`) for running the project.
 
-- **Additional Assets** (if applicable)  
-  - Fonts, images, or other media used by the graphical interface
 
----
 
 ## How to Run the Game
 

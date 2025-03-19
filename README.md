@@ -1,6 +1,6 @@
 # Artificial-Intelligence
 
-## Tic-Tac-Toe (Minimax AI)
+## Tic-Tac-Toe Game (Minimax AI)
 ## ScreenShots
 ![1](https://github.com/user-attachments/assets/47163d0a-1685-4538-b766-e973adb9abda)
 ![2](https://github.com/user-attachments/assets/9866bd86-e141-4944-9196-b3cad4c23a91)

@@ -1,8 +1,12 @@
 # Artificial-Intelligence
 
 ## Tic-Tac-Toe (Minimax AI)
+## ScreenShots
+![1](https://github.com/user-attachments/assets/47163d0a-1685-4538-b766-e973adb9abda)
+![2](https://github.com/user-attachments/assets/9866bd86-e141-4944-9196-b3cad4c23a91)
 
-This repository contains a Tic-Tac-Toe game in Python featuring:
+**This repository** contains a Tic-Tac-Toe game in Python featuring:
+
 
 - A human player vs. an AI player
 - The AI makes optimal moves using the Minimax algorithm

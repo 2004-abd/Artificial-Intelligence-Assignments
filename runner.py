@@ -29,16 +29,16 @@ while True:
 
     screen.fill(black)
 
-    # Let user choose a player.
+    # user choose a player.
     if user is None:
 
-        # Draw title
+        #  title
         title = largeFont.render("Play Tic-Tac-Toe", True, white)
         titleRect = title.get_rect()
         titleRect.center = ((width / 2), 50)
         screen.blit(title, titleRect)
 
-        # Draw buttons
+        # buttons
         playXButton = pygame.Rect((width / 8), (height / 2), width / 4, 50)
         playX = mediumFont.render("Play as X", True, black)
         playXRect = playX.get_rect()
@@ -53,7 +53,7 @@ while True:
         pygame.draw.rect(screen, white, playOButton)
         screen.blit(playO, playORect)
 
-        # Check if button is clicked
+        #  if button is clicked
         click, _, _ = pygame.mouse.get_pressed()
         if click == 1:
             mouse = pygame.mouse.get_pos()
@@ -66,7 +66,7 @@ while True:
 
     else:
 
-        # Draw game board
+        #  game board
         tile_size = 80
         tile_origin = (width / 2 - (1.5 * tile_size),
                        height / 2 - (1.5 * tile_size))
@@ -108,7 +108,7 @@ while True:
         titleRect.center = ((width / 2), 30)
         screen.blit(title, titleRect)
 
-        # Check for AI move
+        #  for AI move
         if user != player and not game_over:
             if ai_turn:
                 time.sleep(0.5)
@@ -118,7 +118,7 @@ while True:
             else:
                 ai_turn = True
 
-        # Check for a user move
+        # for a user move
         click, _, _ = pygame.mouse.get_pressed()
         if click == 1 and user == player and not game_over:
             mouse = pygame.mouse.get_pos()
